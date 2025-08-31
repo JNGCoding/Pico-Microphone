@@ -43,3 +43,7 @@ func (p *Program) Run() {
 		p.Loop()
 	}
 }
+
+func (p *Program) Reset() {
+	p.EXIT_FLAG = true
+}
